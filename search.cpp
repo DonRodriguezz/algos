@@ -67,3 +67,15 @@ int main()
 
     return 0;
 }
+
+int linearSearch(auto data, auto key)
+{
+	for(int i = 0; i < data.size(); i++)
+  {
+    if (date[i] == key)
+      return i; //found it
+  }
+
+  return -1; //not found
+
+}
