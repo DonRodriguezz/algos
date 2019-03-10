@@ -72,7 +72,7 @@ int linearSearch(auto data, auto key)
 {
 	for(int i = 0; i < data.size(); i++)
   {
-    if (date[i] == key)
+    if (data[i] == key)
       return i; //found it
   }
 
